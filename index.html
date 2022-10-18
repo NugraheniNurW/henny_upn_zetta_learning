@@ -19,7 +19,19 @@
                margin-top: 50px;
                margin-bottom: 0px;
            }
-           
+           .form{
+               font-weight: bold;
+               font-size: 18px;
+               font-family: 'Courier New', Courier, monospace;
+           }
+           .form2{
+               font-family: 'Courier New', Courier, monospace;
+               font-size: 15px;
+               text-align: left;
+               width: 50%;
+               height: 35px;
+               border-radius: 5px;
+           }
        </style>
     </head>
     <body>
@@ -38,25 +50,31 @@
             <h4>Billkin & PP Krit "ไม่ปล่อยมือ (Coming of Age)” Orchestra version – Music Heals 2021</h4>
 
             <form action="" method="POST">
-                <label for="name">Input Your Name</label><br>
-                <input type="text" name="name"><br>
-                <label for="bio">
+                <label class="form" for="name">Input Your Name</label><br>
+                <input class="form2" type="text" name="name"><br><br>
+
+                <label class="form" for="bio">
                     Input Your Bio
                 </label><br>
-                <textarea name="biography" id="" cols="30" rows="10">here do ur thing</textarea><br>
-                <label for="gender">Input Your Gender</label><br>
-                <input type="radio" name="gender" id="Male" value="Male">
+                <textarea class="form2" name="bio" cols="30" rows="10">Input your bio here</textarea><br><br>
+
+                <label class="form" for="gender">Input Your Gender</label><br>
+                <input type="radio" name="gender" value="Male">
                 <label for="Male">Male</label>
-                <input type="radio" name="gender" id="" value="Female">
-                <label for="Female">Female</label><br>
-                <label for="email">Input Your Email</label><br>
-                <input type="email" name="Email" id=""><br>
-                <label for="telp">Input Your Telephone Number</label><br>
-                <input type="text" name="telp" id=""><br>
-                <label for="age">Input Your Age</label><br>
-                <input type="number" name="age" id=""><br>
-                <label for="url">Input Your Social Media URL</label><br>
-                <input type="url" name="url" id=""><br>
+                <input type="radio" name="gender" value="Female">
+                <label for="Female">Female</label><br><br>
+
+                <label class="form" for="email">Input Your Email</label><br>
+                <input class="form2" type="email" name="Email"><br><br>
+
+                <label class="form" for="telp">Input Your Telephone Number</label><br>
+                <input class="form2" type="text" name="telp"><br><br>
+
+                <label class="form" for="age">Input Your Age</label><br>
+                <input class="form2" type="number" name="age"><br><br>
+
+                <label class="form" for="url">Input Your Social Media URL</label><br>
+                <input class="form2" type="url" name="url"><br><br>
             </form>
         </center>
         </div>
