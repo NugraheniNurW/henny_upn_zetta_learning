@@ -37,43 +37,59 @@
     <body>
         <div class="bio">
         <center>
-            <h1>
-                Item Input
-            </h1>
-            <h2>
-                Task 5
-            </h2>
-            <h3>
-                2022, 17th October
-            </h3>
-            
-            <form action="" method="POST">
-                <label class="form" for="name">Input Your Name</label><br>
-                <input class="form2" type="text" name="name"><br><br>
+            <section>
+                <h1>
+                    Item Input
+                </h1>
+                <h2>
+                    Task 5
+                </h2>
+                <h3>
+                    2022, 17th October
+                </h3>
+                
+                <form action="" method="POST">
+                    <label class="form" for="code">Input Item Code</label><br>
+                    <input class="form2" type="text" name="code" id="code"><br><br>
 
-                <label class="form" for="bio">
-                    Input Your Bio
-                </label><br>
-                <textarea class="form2" name="bio" cols="30" rows="10">Input your bio here</textarea><br><br>
+                    <label class="form" for="name">Input Item Name</label><br>
+                    <input class="form2" type="text" name="name" id="name"><br><br>
 
-                <label class="form" for="gender">Input Your Gender</label><br>
-                <input type="radio" name="gender" value="Male">
-                <label for="Male">Male</label>
-                <input type="radio" name="gender" value="Female">
-                <label for="Female">Female</label><br><br>
+                    <label class="form" for="pic">Input Item Picture</label><br>
+                    <input class="form2" type="file" name="pic"><br><br>
+    
+                    <label class="form" for="desc">Input Item Description</label><br>
+                    <textarea class="form2" name="desc" cols="30" rows="10">Input item description here</textarea><br><br>
+    
+                    <label class="form" for="type">Input Item Category</label><br>
+                    <input type="radio" name="type" value="sc">
+                    <label for="sc">Skin Care</label>
+                    <input type="radio" name="type" value="mu">
+                    <label for="mu">Make Up</label>
+                    <input type="radio" name="type" value="bc">
+                    <label for="bc">Body Care</label>
+                    <br><br>
+                    
+                    <label class="form" for="stock">Input Item Stock</label><br>
+                    <input class="form2" type="number" name="stock"><br><br>
 
-                <label class="form" for="email">Input Your Email</label><br>
-                <input class="form2" type="email" name="Email"><br><br>
+                    <label class="form" for="price">Input Item Price</label><br>
+                    <input class="form2" type="number" name="price"><br><br>
+    
+                    <label class="form" for="exp">Input Item Expire Date</label><br>
+                    <input class="form2" type="date" name="exp"><br><br>
+    
+                    <label class="form" for="rate">Input Your Rating</label><br>
+                    <input class="form2" type="range" name="rate" minlength="0" maxlength="10s"><br><br>
 
-                <label class="form" for="telp">Input Your Telephone Number</label><br>
-                <input class="form2" type="text" name="telp"><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+            <br><br>
 
-                <label class="form" for="age">Input Your Age</label><br>
-                <input class="form2" type="number" name="age"><br><br>
-
-                <label class="form" for="url">Input Your Social Media URL</label><br>
-                <input class="form2" type="url" name="url"><br><br>
-            </form>
+            <section>
+                <h2></h2>
+            </section>
         </center>
         </div>
         <br>
